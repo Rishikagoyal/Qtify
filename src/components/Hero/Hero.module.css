@@ -1,0 +1,23 @@
+.headerDiv{
+    display:flex;
+    background-color:black;
+    overflow:hidden;
+}
+.header{
+    margin-top:5%;
+    margin-left:328px;
+    width:566px;
+    height:100px;
+    font-style:poppins;
+    font-size:25px;
+    color:white;
+    letter-spacing:2px;
+    line-height:32px;
+}
+.headphones{
+    margin-left:-125px;
+    margin-top:2%;
+    width:150px;
+    height:150px;
+    transform:rotate(10deg);
+}

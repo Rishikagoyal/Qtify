@@ -1,0 +1,17 @@
+.button{
+    background-color:var(--color-white);
+    padding:12px 18px;
+    font-size:12px;
+    font-weight:bold;
+    margin-right:5%;
+    height:33px;
+    width:112px;
+    overflow-y:hidden;
+    border-radius:12px;
+    padding:4px;
+    font-style:poppins;
+    border:1px;
+    background-color:black;
+    color:var(--color-primary);
+
+}

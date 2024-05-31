@@ -1,0 +1,15 @@
+:root{
+  --color-primary:#34c94b;
+  --color-black:#121212;
+  --color-white:#ffffff;
+  --font-sm:12px;
+  --font-md:16px;
+  --font-lg:20px;
+  --background-color-primary:#000000;
+  
+}
+
+*{
+  margin:0;
+  overflow-x:hidden;
+}

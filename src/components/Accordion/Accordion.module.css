@@ -1,0 +1,12 @@
+.accordionItem{
+    margin-left:30%;
+}
+.accordionTitle{
+    display:flex;
+    justify-content:space-between;
+    align-items:stretch;
+    padding:5px;
+    margin-top:5px;
+    border:2px solid black;
+    width:700px;
+}

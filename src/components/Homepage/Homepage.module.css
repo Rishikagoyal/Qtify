@@ -1,0 +1,41 @@
+.card{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.faq{
+    margin-left:50%;
+}
+/* src/CustomCarousel.css */
+.carouselslide {
+    position: relative;
+    padding: 10px;
+  }
+  
+  
+  
+  .arrowprev,.arrownext{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+  }
+  
+  .arrownext {
+    right: 5px;
+
+  }
+  
+  .arrowprev {
+    left: 15px;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+  
