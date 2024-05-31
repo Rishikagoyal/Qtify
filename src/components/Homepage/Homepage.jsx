@@ -31,9 +31,9 @@ const Homepage=()=>{
   useEffect(()=>{const fetchData=async()=>{
 
     try{
-    const response=await axios.get('http://qtify-backend-labs.crio.do/albums/top');
-    const response1=await axios.get('http://qtify-backend-labs.crio.do/albums/new');
-    const response2=await axios.get('http://qtify-backend-labs.crio.do/songs');
+    const response=await axios.get('https://qtify-backend-labs.crio.do/albums/top');
+    const response1=await axios.get('https://qtify-backend-labs.crio.do/albums/new');
+    const response2=await axios.get('https://qtify-backend-labs.crio.do/songs');
     
     console.log(response.data);
     setArr(response.data);
