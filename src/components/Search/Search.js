@@ -10,7 +10,7 @@ const Search =()=>{
 
        <div>
 
-        <input name="album" className={styles.search} placeholder="Search"/>
+        <input name="album" className={styles.search} placeholder="Search a album of your choice"/>
        </div>
 
        <div>
