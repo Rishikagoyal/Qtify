@@ -9,13 +9,14 @@
     overflow-y:hidden;
     border-radius:12px;
     padding:4px;
-    font-style:poppins;
     border:1px;
     background-color:black;
     color:var(--color-primary);
-    font-style:poppins;
+    font-family:Poppins;
 
 }
+
 .button:hover{
     cursor:pointer;
 }
+
